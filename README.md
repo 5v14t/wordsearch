@@ -6,19 +6,19 @@ Returns a clean 2D array that you can further customize and display however you 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Automatically fits all words into a square grid
 - Supports custom languages (via `alphabets.py`)
 - Places words in:
-  - Horizontal ↔️
-  - Vertical ↕️
-  - Diagonal ↘️ directions
+  - Horizontal
+  - Vertical
+  - Diagonal (down-right) directions
 - Returns a ready-to-use 2D array (no output to file or console by default)
 
 ---
 
-## 📆 Installation
+## Installation
 
 Using pip:
 
@@ -40,7 +40,7 @@ from wordsearch import WordSearch
 
 ---
 
-## 🧪 Example
+## Example
 
 ```python
 from wordsearch import WordSearch
@@ -63,7 +63,7 @@ C R A N G E M A I P
 
 ---
 
-## 🧠 Customization
+## Customization
 
 Want to use different alphabets?  
 Check out `alphabets.py` to define your own language set.  
@@ -75,7 +75,7 @@ ws = WordSearch(words, language=Alphabets.SPANISH)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 wordsearch/
@@ -91,7 +91,7 @@ wordsearch/
 
 ---
 
-## 🤓 Who is this for?
+## Who is this for?
 
 - Educators making worksheets
 - Devs wanting to visualize word data
@@ -100,8 +100,8 @@ wordsearch/
 
 ---
 
-## 📋 License
+## License
 
 MIT — feel free to use, modify, and share.  
-If you build something fun with it, let me know! 😄
+If you build something fun with it, let me know!
 
